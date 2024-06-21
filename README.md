@@ -1,3 +1,4 @@
+[header](header.png)
 # Health Insurance Charges Analysis
 
 ## About
@@ -5,7 +6,6 @@ This project aims to analyze factors contributing to health insurance charges in
 
 ## Dataset
 The dataset used in this analysis consists of 1,337 rows and 7 columns after cleaning, which involved removing duplicates and handling missing values. The columns in the dataset are:
-
 - `age`: Age of the policyholder (15-64 years)
 - `sex`: Gender of the policyholder (male or female)
 - `bmi`: Body mass index (15.96 - 53.15 kg/m²)
@@ -21,16 +21,16 @@ Proportions of smokers and non-smokers are similar across regions, with a slight
 - **Correlation Analysis**: The analysis shows positive correlations between age, BMI, number of children, and charges. Smoking status has a substantial impact on the charges, with smokers incurring significantly higher charges than non-smokers.
 
 ## Analysis Steps
-- Data Cleaning:
+- **Data Cleaning**:
     - Removed duplicates and handled missing values.
     - Checked for the presence of missing values and duplicates.
-- Descriptive Statistics:
+- **Descriptive Statistics**:
     - Computed means for age, BMI, number of children, and charges based on smoking status and gender.
     - Visualized the differences using bar charts.
-- Categorical Variables Analysis:
+- **Categorical Variables Analysis**:
     - Analyzed proportions of policyholders and distributions of charges across regions.
     - Examined proportions of smokers and non-smokers based on region and gender.
-- Correlation and Hypothesis Testing:
+- **Correlation and Hypothesis Testing**:
     - Conducted Spearman’s correlation analysis due to the non-normal distribution of some variables.
     - Created a heatmap to visualize the correlation matrix.
 
